@@ -66,11 +66,11 @@
   },
   "resolutions": {
     "ajv": "8.12.0",
-    "ajv-keywords": "5.1.0",
+    "ajv-keywords": "^3.5.2",
     "schema-utils": "^3.2.0",
     "date-fns": "3.6.0",
     "fork-ts-checker-webpack-plugin/ajv": "8.12.0",
-    "fork-ts-checker-webpack-plugin/ajv-keywords": "5.1.0",
+    "fork-ts-checker-webpack-plugin/ajv-keywords": "^3.5.2",
     "fork-ts-checker-webpack-plugin/schema-utils": "^3.2.0"
   },
   "scripts": {
