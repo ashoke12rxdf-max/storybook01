@@ -1,8 +1,1 @@
-{
-  "installCommand": "yarn install --no-frozen-lockfile --ignore-optional",
-  "buildCommand": "CI=false DISABLE_FORK_TS_CHECKER=true craco build",
-  "outputDirectory": "build",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
+
