@@ -1,6 +1,6 @@
 {
-  "installCommand": "yarn install --no-frozen-lockfile --ignore-optional",
-  "buildCommand": "CI=false craco build",
+  "installCommand": "npm install --legacy-peer-deps --ignore-scripts",
+  "buildCommand": "CI=false node_modules/.bin/craco build",
   "outputDirectory": "build",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
