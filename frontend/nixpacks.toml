@@ -1,5 +1,11 @@
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[variables]
+NODE_VERSION = "20.19.2"
+
 [phases.build]
-cmds = ["yarn install", "yarn build"]
+cmds = ["yarn install --no-frozen-lockfile --ignore-optional", "CI=false yarn build"]
 
 [start]
 cmd = "npx serve -s build -l $PORT"

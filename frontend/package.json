@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "20.x"
+    "node": ">=20.19.0"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
@@ -47,12 +47,12 @@
     "input-otp": "^1.4.2",
     "lucide-react": "^0.507.0",
     "next-themes": "^0.4.6",
-    "pdfjs-dist": "^5.5.207",
+    "pdfjs-dist": "4.10.38",
     "react": "^19.0.0",
     "react-day-picker": "8.10.1",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.56.2",
-    "react-pdf": "^10.4.1",
+    "react-pdf": "^9.2.1",
     "react-resizable-panels": "^3.0.1",
     "react-router-dom": "^7.5.1",
     "react-scripts": "5.0.1",
@@ -69,6 +69,7 @@
     "ajv-keywords": "^3.5.2",
     "schema-utils": "^3.2.0",
     "date-fns": "3.6.0",
+    "pdfjs-dist": "4.10.38",
     "fork-ts-checker-webpack-plugin/ajv": "8.12.0",
     "fork-ts-checker-webpack-plugin/ajv-keywords": "^3.5.2",
     "fork-ts-checker-webpack-plugin/schema-utils": "^3.2.0"
