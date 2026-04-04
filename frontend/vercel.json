@@ -1,5 +1,5 @@
 {
-  "installCommand": "yarn install --frozen-lockfile=false",
+  "installCommand": "yarn install --no-frozen-lockfile",
   "buildCommand": "CI=false craco build",
   "outputDirectory": "build",
   "rewrites": [
